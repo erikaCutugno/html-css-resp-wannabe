@@ -135,3 +135,42 @@ img {
         padding: 0 20px;
     }
 }
+
+@media  screen and (max-width: 480px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    /* LESSONS SECTION */
+.lessons .col {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.lessons .col img {
+    height: 200px;
+    margin-bottom: 1rem;
+}
+.steps {
+    margin: 3rem 0 0 0;
+    padding: 3rem 0;
+}
+.steps .col {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.why-us {
+    margin-bottom: 0rem;
+    padding: 3rem 0;
+    background-color: black;
+}
+.why-us .col-left {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.why-us .col-right {
+    width: 100%;
+}
+
+}
